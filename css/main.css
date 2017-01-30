@@ -1,0 +1,64 @@
+body {
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-size: 225px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  margin-bottom: 0;
+
+}
+
+h2 {
+  color: grey;
+  font-size: 60px;
+  text-align: center;
+   font-family: 'VT323', monospace;
+}
+
+#gameInstructions {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+
+}
+
+#grid {
+  height: 499px;
+  width: 499px;
+  background-color: white;
+  margin: 0 auto;
+  /*border: 1px white solid;*/
+  padding: 0;
+}
+
+.square {
+  height: 159px;
+  width: 159px;
+  background-color: blue;
+  border: solid white 4px;
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 40px;
+}
+br {
+   margin-top: 200px;
+ }
+
+button {
+  margin: auto 0;
+}
+
+footer {
+  height: 100px;
+}
+
+.available:hover {
+  background: green;
+}
